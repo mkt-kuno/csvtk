@@ -29,7 +29,7 @@ import (
 )
 
 // VERSION of csvtk
-const VERSION = "0.32.0"
+const VERSION = "0.32.0 for DigitShowModbus"
 
 // versionCmd represents the version command
 var versionCmd = &cobra.Command{
