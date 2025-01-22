@@ -195,12 +195,12 @@ Notes:
 		for _, gor := range groupOrders {
 			v := groups[gor.Key]
 
-			// sort by x
-			if !scatter {
-				sort.Slice(v, func(i, j int) bool {
-					return v[i].X < v[j].X
-				})
-			}
+			// BYPASS sort by x
+			// if !scatter {
+			// 	sort.Slice(v, func(i, j int) bool {
+			// 		return v[i].X < v[j].X
+			// 	})
+			// }
 
 			g := gor.Key
 			if !scatter {
